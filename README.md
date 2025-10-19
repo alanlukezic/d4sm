@@ -27,4 +27,14 @@ Use the `vot_wrapper.py` script to integrate it with the vot toolkit and running
 
 ## Results
 
-TODO: Add results on the VOTS2025 main and realtime challenge. 
+VOTS2025 baseline experiment:
+|   Model  |   Q   |  Acc. | Rob.  |
+|:--------:|:-----:|:-----:|:-----:|
+| SAM2.1-L | 0.710 | 0.791 | 0.862 |
+| SAM2.1-T | 0.666 | 0.759 | 0.847 |
+
+VOTS2025 realtime experiment (note that the realtime results might vary depending on the hardware):
+|   Model  |   Q   |  Acc. | Rob.  |
+|:--------:|:-----:|:-----:|:-----:|
+| SAM2.1-L | 0.626 | 0.687 | 0.862 |
+| SAM2.1-T | 0.632 | 0.714 | 0.852 |
